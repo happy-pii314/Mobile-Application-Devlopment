@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="20dp"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/collegeImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            android:src="@drawable/images"
+            android:contentDescription="College Logo"
+            android:scaleType="fitCenter" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/collegeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Shree Swami Atmanand Saraswati Institute of Technology"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter User Name"
+            android:layout_span="2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/userPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:layout_span="2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/verificationCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am not a robot"
+            android:layout_span="2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            android:text="LOGIN" />
+
+    </TableRow>
+
+</TableLayout>

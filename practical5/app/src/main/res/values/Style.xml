@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="customText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#2196F3</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>
